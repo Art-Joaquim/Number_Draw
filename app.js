@@ -25,7 +25,7 @@ function sortear(){
     let numero;
     
     if (ate < de || ate == de){
-        alert("Erro: O número no campo 'Até o Número' precisa ser maior que o campo 'Do número'.");
+        alert("Erro: O número no campo 'Até o Número' precisa ser maior do que o número do campo 'Do número'.");
         return;
 
     } else {
